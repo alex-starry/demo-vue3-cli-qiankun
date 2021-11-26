@@ -25,5 +25,8 @@ module.exports = {
         jest: true
       }
     }
-  ]
+  ],
+  globals: {
+    __POWERED_BY_QIANKUN__: true
+  }
 }

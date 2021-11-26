@@ -12,9 +12,11 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "suppressImplicitAnyIndexErrors": true,
     "types": [
       "webpack-env",
-      "jest"
+      "jest",
+      "element-plus/global"
     ],
     "paths": {
       "@/*": [
